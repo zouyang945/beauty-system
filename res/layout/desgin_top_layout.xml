@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/base_activity_actionbar_height"
+    android:background="@color/normal_red_color"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/up_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/commect_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/function_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/custom_right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+</RelativeLayout>

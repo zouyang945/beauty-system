@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 失效状态 -->
+    <item android:state_enabled="false"><shape>
+            <corners android:radius="5dip" />
+
+            <solid android:color="#d4d4d4" />
+        </shape></item>
+    <!-- 按下状态 -->
+    <item android:state_pressed="true"><shape>
+            <corners android:radius="5dip" />
+
+            <solid android:color="@color/normal_red_color" />
+        </shape></item>
+    <!-- 普通状态 -->
+    <item><shape android:shape="rectangle">
+            <corners android:radius="5dip" />
+
+            <gradient android:endColor="@color/normal_red_color" android:startColor="@color/normal_red_color" android:type="linear" />
+        </shape></item>
+
+</selector>

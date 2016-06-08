@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HairdressingBeauty</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- titles -->
+    <string name="login_title">卡莫美业收银系统</string>
+
+    <!-- end -->
+
+    <string name="root_login">管理员登录</string>
+    <string name="cashier_login">收银员登录</string>
+    <string name="phone_number_input">请输入手机号码</string>
+    <string name="password_input">请输入密码(8-16位字母和数字组合字符)</string>
+    <string name="register_store">注册门店</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="login">登录</string>
+
+    <!-- 收银 -->
+    <string name="cashier_list">消费列表</string>
+    <string name="product_name">品名</string>
+    <string name="product_number">数量</string>
+    <string name="product_price">价格</string>
+    <string name="clear">清空</string>
+    <string name="take_single">取单</string>
+    <string name="find_member">查找会员</string>
+    <string name="receivables">收款</string>
+    <string name="recharge">充值</string>
+    <string name="exchange">积分兑换</string>
+    <string name="return_cards">退卡</string>
+    <string name="service">服务</string>
+    <string name="product">商品</string>
+
+    <!-- 门店管理 -->
+    <string name="store_management">门店管理</string>
+    <string name="ticket_set">小票设置</string>
+    <string name="store_name">店铺名称</string>
+    <string name="logo_up">logo上传</string>
+    <string name="qrode_up">二维码上传</string>
+    <string name="qrode_info">二维码描述</string>
+    <string name="address">地址</string>
+    <string name="phone">联系电话</string>
+    <string name="cashier_management">收营员管理</string>
+
+    <!-- 服务商品管理 -->
+    <string name="service_product">服务/商品管理</string>
+    <string name="service_list">服务列表</string>
+    <string name="product_list">商品列表</string>
+    
+    <string name="service_number">服务编号</string>
+    <string name="service_name">服务名称</string>
+    <string name="service_classify">服务分类</string>
+    <string name="service_price">服务价格</string>
+    <string name="service_member">区分会员</string>
+    <string name="service_type">所需工种</string>
+    
+    <string name="product_numbers">商品编号</string>
+    <string name="product_names">商品名称</string>
+    <string name="product_classify">商品分类</string>
+    <string name="product_brand">品牌</string>
+    <string name="product_cost">成本</string>
+    <string name="product_prices">商品价格</string>
+    <string name="product_stock">库存</string>
+    <string name="product_member">区分会员</string>
+    <string name="product_commission">提成</string>
+
+    <!-- 推广促销 -->
+    <string name="low_price_prevail">与会员折后价格比较，以低价格为准</string>
+    <string name="promotion_price_prevail">会员价格无效，以促销价格为准</string>
+    <string name="promotion_price_without_meber">促销价格对会员无效</string>
+    <string name="promotion_price_and_member">在促销价格的基础上再次按会员卡折扣打折</string>
+    
+    <string name="promotion_price_without_cash">使用现金券消费本促销类型无效</string>
+    <string name="activity_without_red">此活动不使用红包结算</string>
+    <string name="activity_with_other_promotion">此活动与其他促销活动同时进行</string>
+</resources>

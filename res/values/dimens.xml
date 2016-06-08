@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="base_activity_actionbar_height">60dp</dimen>
+    <dimen name="login_btn_height">80dp</dimen>
+    <dimen name="normal_text_size">30sp</dimen>
+    <dimen name="small_text_size">25sp</dimen>
+    <dimen name="big_text_size">35sp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/normal_thin_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/framelayout_divider"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip" >
+
+        <LinearLayout
+            android:id="@+id/top_cashier_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="账号" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="员工姓名" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="员工工种" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="性别" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cashier_list"
+            android:layout_below="@+id/top_cashier_info"
+            android:divider="@color/normal_thin_color"
+            android:dividerHeight="1dip" />
+    </RelativeLayout>
+
+</LinearLayout>

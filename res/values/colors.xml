@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="normal_red_color">#fd6363</color>
+	<color name="normal_thin_color">#f5f5f9</color>
+	<color name="normal_green">#8bdea7</color>
+	
+	 <color name="background_tab_pressed">#8833B5E5</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/up_data"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/up_data" />
+
+            <ImageView
+                android:id="@+id/data_type"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/data_type" />
+
+            <ImageView
+                android:id="@+id/add_data"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/add_data" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

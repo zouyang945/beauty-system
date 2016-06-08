@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/product_list" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/up_data"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/up_data" />
+
+            <ImageView
+                android:id="@+id/data_type"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/data_type" />
+
+            <ImageView
+                android:id="@+id/add_data"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/add_data" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_numbers" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_names" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_classify" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_cost" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_prices" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_stock" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_member" />
+
+        <TextView
+            style="@style/TextViewTab"
+            android:layout_weight="1"
+            android:text="@string/product_commission" />
+    </LinearLayout>
+
+</LinearLayout>
